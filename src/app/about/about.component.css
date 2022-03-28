@@ -1,0 +1,44 @@
+.container1, .container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#about_doctor, #about_doctor2{
+    height: 400px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+p{
+    font-size: large;
+    padding: 10px;
+}
+#footer_image{
+    width: 60px;
+    height: 60px;
+}
+.footer_1, .footer_2{
+    display: flex;
+
+}
+.footer{
+    margin-top: 20px;
+    padding-top: 50px;
+    background-color: #3598db;
+    height: 450px;    
+}
+#pet_health, #pet_fecillity ,#pet_operation, #pet_spa, #pet_holiday, #pet_shop{
+    width: 600px;
+    padding: 10px;  
+}

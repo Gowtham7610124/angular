@@ -1,0 +1,59 @@
+<br><hr><br><h1 id="heading">ENTER THE FOLLOWING DETAIL TO MAKE A APPOINMENT </h1><br><hr><br>
+<div id="container">
+    <div class="blur_container">
+        <div class="line1">
+            <form >
+                <h3>First Name</h3>
+                <p><input  id="name" name="name" type="text" [(ngModel)]="username" placeholder="enter your first Name"></p><br>
+            </form>
+            
+            <form >
+                <h3>Last Name</h3>
+                <p><input [(ngModel)]="lastName"  id="name" name="name" type="text" placeholder="enter your last name"></p>
+            </form>
+        </div>
+            
+        <div class="line2">
+            <form >
+                <h3>Select Your Pet</h3>
+                <p><select [(ngModel)]="varaity" id="name" name="name" type="text" ><br>
+                    <option value="dog">DOG</option>
+                    <option value="dog">CAT</option>
+                </select><br></p>
+            </form>
+                
+            <form >
+                <h3>Enter the Breed Name</h3>
+                <p><input  [(ngModel)]="breed" id="name" name="name" type="text" placeholder="enter the breed of the pet"><br></p>
+            </form>
+        </div>
+           
+        <div class="line3">
+            <form >
+                <h3>Medical Record</h3>
+                <p><input  [(ngModel)]="medRecord" id="name" name="name" type="text" placeholder="any previous medical record"><br></p>
+            </form>
+                
+            <form >
+                <h3>Enter The Reason For Visit</h3>
+                <p><input  [(ngModel)]="reason" id="name" name="name" type="text" placeholder="enter the problem"><br></p>
+            </form>
+        </div>
+            
+        <div class="line4">
+            <form >
+                <h3>Other Details About The Problem</h3>
+                <p><input [(ngModel)]="other" id="name" name="name" type="text" placeholder="explain the problem in detail"><br></p>
+            </form>
+        </div>
+    
+        <div class="submit">
+            <button class="button" (click)="clicked()" >SUBMIT</button>
+            
+        </div>
+        <div id="output">
+            <h2 *ngIf="ifclicked" id="msg">you have made an appoinment.....!!</h2>
+        </div>
+    </div>
+</div>
+

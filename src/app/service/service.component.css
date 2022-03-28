@@ -1,0 +1,30 @@
+.order1, .order2{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding: 30px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+
+h3{
+    padding: 15px;
+}
+#info{
+    padding: 30px;
+}
+img{
+    width: 300px;
+    border-radius: 30px;
+}
+.order1{
+    background-color: whitesmoke;
+}
+.order2{
+    background-color:#3598db ;
+}
+.main{
+    padding: 30px;
+}

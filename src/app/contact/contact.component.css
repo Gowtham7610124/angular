@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #3a459c;
+    padding: 20px;
+    margin-top: 70px;
+    width: 400px;
+    margin-left: 1000px;
+    color: white;
+  }
+  #clinic_details{
+    background-color: #3a459c;
+    width: 700px;
+    height: 460px;
+    position: relative;
+    margin-top: -465px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+  }
+  .class{
+    width: 700px;
+  }

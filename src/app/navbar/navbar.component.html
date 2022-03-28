@@ -1,0 +1,27 @@
+<img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqYWzqnXRpAfP4B6sG6s87hOLHUfT2SuXBBQ&usqp=CAU" alt="logo">
+<div class="main">
+    <h1>PET CLINIC</h1><br>
+<div id="nav_bar">
+    <ul>
+        <li id="home"><a (click)="changeImage()" routerLink="home">HOME</a></li>
+        <li id="signup"><a (click)="changeImage()" routerLink="signup">APPOINMENT</a></li>
+        <li id="service"><a (click)="changeImage()" routerLink="service">SERVICE</a></li>
+        <li id="about"><a (click)="changeImage()" routerLink="about">ABOUT</a></li>
+        <li id="contact"><a (click)="changeImage()" routerLink="contact">CONTACT</a></li>
+        <li id="login"><a (click)="changeImage()" routerLink="login">LOGIN</a></li>
+        
+        
+        
+    </ul>
+</div>
+</div>
+<div id="slider">
+    <figure>
+  <img id="sliding_img" *ngIf="imgVisible" src="https://cdn.pixabay.com/photo/2020/03/06/15/52/animal-4907433__340.jpg" alt="gadget">
+ <img  id="sliding_img" *ngIf="imgVisible" src="https://cdn.pixabay.com/photo/2019/08/05/11/58/health-4385852__340.jpg">
+ <img id="sliding_img" *ngIf="imgVisible" src="https://cdn.pixabay.com/photo/2021/12/17/19/15/grooming-6877254__340.jpg">
+ <img id="sliding_img" *ngIf="imgVisible"src="https://cdn.pixabay.com/photo/2021/12/17/19/16/dog-6877280__340.jpg">
+ <img id="sliding_img" *ngIf="imgVisible" src="https://cdn.pixabay.com/photo/2021/12/17/19/15/grooming-6877264__340.jpg" alt="gadget">
+</figure>
+</div>
+

@@ -1,0 +1,46 @@
+#container1{
+  background-color: #3598db;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  margin-top: 100px;
+  padding: 20px;
+}
+#doctor_img{
+  text-align: center;
+}
+
+#doc_info{
+  width: 500px;
+}
+#success{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.reason{
+  text-align: center;
+  padding: 10px;
+  line-height: 30px;
+  background-color:#3598db ;
+  color: white;
+}
+.reason ul{
+  list-style-type: none; 
+}
+.timing{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  padding: 10px;
+}
+#success hr{
+  width: 200px;
+  text-align: center;
+}
+.reason hr{
+  width: 600px;
+  margin-left: 450px;
+}

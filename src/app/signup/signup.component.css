@@ -1,0 +1,62 @@
+#heading {
+    text-align: center;
+}
+.blur_container{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#container{
+    line-height: 30px;
+    background-image: url('https://media.istockphoto.com/photos/accessories-for-cat-and-dog-on-blue-background-pet-care-and-training-picture-id1248454290?k=20&m=1248454290&s=612x612&w=0&h=Ajti5uiVqrJ4Ll66-1JS3qfSwSwvSHBAK-dOyJDj8Ow=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.line1 , .line2 , .line3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.line4{
+    display: flex;
+    justify-content: center;
+}
+input,select{
+    padding: 20px;
+    display: flex;
+    justify-content:center ;
+    width: 600px;
+    border-radius: 30px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    align-items: center; 
+    padding: 20px;
+}
+#output{
+    text-align: center;
+}
+h1{
+    padding: 15px;
+    color: #3598db;
+}
+button{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border-style: none;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    border-style: none;
+}
